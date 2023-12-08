@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.dicoding.submissionproject.databinding.ActivityMainBinding
@@ -51,6 +52,17 @@ class MainActivity : AppCompatActivity() {
 
     private fun showRecycleList() {
         rvProducts.layoutManager = LinearLayoutManager(this)
-        rvProducts.adapter = ListProductAdapter(list)
+        val listProductAdapter = ListProductAdapter(list)
+        rvProducts.adapter = listProductAdapter
+        listProductAdapter.setItemOnClickCallback(object: ListProductAdapter.OnItemClickCallback {
+            override fun onItemClicked(productData: ProductData) {
+                showSelectedProduct(productData)
+            }
+        })
     }
+
+    fun showSelectedProduct(productData: ProductData) {
+        Toast.makeText(this, "Anda memilih ${productData.name}", Toast.LENGTH_SHORT).show()
+    }
+
 }
