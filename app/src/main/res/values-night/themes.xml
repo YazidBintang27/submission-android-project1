@@ -14,4 +14,8 @@
     <style name="Base.Theme.ActionBar" parent="Widget.MaterialComponents.ActionBar.Primary">
         <item name="android:background">@color/blue</item>
     </style>
+
+    <style name="SplashScreenTheme" parent="Theme.Material3.DayNight.NoActionBar">
+
+    </style>
 </resources>

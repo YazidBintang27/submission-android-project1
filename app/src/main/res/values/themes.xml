@@ -15,5 +15,9 @@
         <item name="android:background">@color/blue</item>
     </style>
 
+    <style name="SplashScreenTheme" parent="Theme.Material3.DayNight.NoActionBar">
+
+    </style>
+
     <style name="Theme.SubmissionProject" parent="Base.Theme.SubmissionProject" />
 </resources>
