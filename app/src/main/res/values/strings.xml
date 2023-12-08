@@ -1,4 +1,53 @@
 <resources>
     <string name="app_name">Jetbrains Product List</string>
     <string name="about_title">About</string>
+    <string name="splash_title">JetBrains Product List</string>
+    <string name="splash_logo">Splash Logo</string>
+    <string name="creator">Created by Yazid</string>
+    <string name="test">WebStorm</string>
+    <string name="alt">Product</string>
+    <string name="description">Deskripsi : </string>
+    <string name="username">Yazid Bintang Fathurrahman</string>
+    <string name="email">yazidbintang2711@gmail.com</string>
+    <string name="testDesc">WebStorm adalah Integrated Development Environment (IDE) yang dikembangkan oleh JetBrains, khusus dirancang untuk pengembangan aplikasi web dengan menggunakan teknologi seperti HTML, CSS, dan JavaScript. WebStorm menyediakan lingkungan pengembangan yang kaya fitur dan mendukung berbagai bahasa pemrograman dan kerangka kerja yang digunakan dalam pengembangan web.</string>
+
+    <string-array name="data_name">
+        <item>CLion</item>
+        <item>DataGrip</item>
+        <item>DotPeek</item>
+        <item>Intellij IDEA</item>
+        <item>PHPStorm</item>
+        <item>PyCharm</item>
+        <item>ReSharper</item>
+        <item>Rider</item>
+        <item>RubyMine</item>
+        <item>WebStorm</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>CLion adalah Integrated Development Environment (IDE) yang dikembangkan oleh JetBrains khusus untuk pemrograman dalam bahasa C dan C++. IDE ini dirancang untuk memudahkan pengembangan perangkat lunak dengan menyediakan berbagai fitur seperti penyorotan sintaksis, analisis kode, debugging, dan integrasi dengan berbagai alat pengembangan.</item>
+        <item>DataGrip juga merupakan salah satu produk yang dikembangkan oleh JetBrains, tetapi berfokus pada pengembangan database. Ini adalah Integrated Development Environment (IDE) yang dirancang khusus untuk bekerja dengan basis data. DataGrip mendukung berbagai sistem manajemen basis data seperti MySQL, PostgreSQL, Oracle, Microsoft SQL Server, dan banyak lagi.</item>
+        <item>DotPeek adalah perangkat lunak yang dikembangkan oleh JetBrains dan berfungsi sebagai decompiler untuk program-program yang ditulis dalam bahasa .NET, seperti C# atau VB.NET. Decompiler ini memungkinkan pengguna untuk melihat kode sumber dari assembly .NET, yang dapat bermanfaat dalam situasi di mana kode sumber asli tidak tersedia.</item>
+        <item>IntelliJ IDEA adalah Integrated Development Environment (IDE) yang dikembangkan oleh JetBrains untuk pengembangan perangkat lunak dalam berbagai bahasa pemrograman, termasuk Java, Kotlin, Groovy, Scala, dan lainnya. IntelliJ IDEA terkenal karena fitur-fitur canggihnya dan pendekatannya terhadap peningkatan produktivitas pengembang.</item>
+        <item>PHPStorm adalah Integrated Development Environment (IDE) yang dikembangkan oleh JetBrains, dirancang khusus untuk pengembangan aplikasi berbasis PHP. Sebagai salah satu produk dari keluarga JetBrains IDE, PHPStorm menyediakan lingkungan pengembangan yang kaya fitur dan nyaman untuk para pengembang PHP.</item>
+        <item>PyCharm adalah Integrated Development Environment (IDE) yang dikembangkan oleh JetBrains, dirancang khusus untuk pengembangan aplikasi berbasis Python. Sebagai salah satu IDE Python yang populer, PyCharm menyediakan berbagai fitur untuk memudahkan pengembangan Python, termasuk penyorot sintaksis Python, penyelesaian kode cerdas, integrasi dengan sistem manajemen proyek seperti pip dan virtualenv, debugging, dan alat pengujian.</item>
+        <item>ReSharper adalah plugin atau ekstensi untuk Integrated Development Environment (IDE) dari JetBrains, terutama untuk Visual Studio. ReSharper dirancang untuk meningkatkan produktivitas pengembang yang bekerja dengan bahasa-bahasa seperti C#, VB.NET, XAML, XML, HTML, CSS, dan lainnya di lingkungan pengembangan Microsoft Visual Studio.</item>
+        <item>Rider adalah Integrated Development Environment (IDE) yang dikembangkan oleh JetBrains, dirancang khusus untuk pengembangan aplikasi dengan menggunakan bahasa pemrograman C#. Rider menyediakan lingkungan pengembangan yang kuat dan kaya fitur untuk para pengembang yang bekerja dengan platform .NET.</item>
+        <item>RubyMine adalah Integrated Development Environment (IDE) yang dikembangkan oleh JetBrains, khusus dirancang untuk pengembangan aplikasi dengan menggunakan bahasa pemrograman Ruby dan Rails. RubyMine menyediakan berbagai fitur untuk membantu pengembang Ruby meningkatkan produktivitas mereka dan memfasilitasi pengembangan aplikasi web dan perangkat lunak dengan Ruby.</item>
+        <item>WebStorm adalah Integrated Development Environment (IDE) yang dikembangkan oleh JetBrains, khusus dirancang untuk pengembangan aplikasi web dengan menggunakan teknologi seperti HTML, CSS, dan JavaScript. WebStorm menyediakan lingkungan pengembangan yang kaya fitur dan mendukung berbagai bahasa pemrograman dan kerangka kerja yang digunakan dalam pengembangan web.</item>
+    </string-array>
+
+    <integer-array name="data_logo">
+        <item>@drawable/clion</item>
+        <item>@drawable/datagrip</item>
+        <item>@drawable/dotpeek</item>
+        <item>@drawable/intellij</item>
+        <item>@drawable/phpstorm</item>
+        <item>@drawable/pycharm</item>
+        <item>@drawable/resharper</item>
+        <item>@drawable/rider</item>
+        <item>@drawable/rubymine</item>
+        <item>@drawable/webstorm</item>
+    </integer-array>
+
 </resources>
