@@ -1,8 +1,18 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.SubmissionProject" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.SubmissionProject" parent="Theme.Material3.DayNight">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="actionBarStyle">@style/Base.Theme.ActionBar</item>
+
+    </style>
+
+    <style name="Base.Theme.ActionBar" parent="Widget.MaterialComponents.ActionBar.Primary">
+        <item name="android:background">@color/blue</item>
     </style>
 
     <style name="Theme.SubmissionProject" parent="Base.Theme.SubmissionProject" />
