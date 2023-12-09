@@ -1,5 +1,6 @@
 package com.dicoding.submissionproject
 
+import android.content.Intent
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -28,6 +29,13 @@ class DetailActivity : AppCompatActivity() {
             binding.ivLogo.setImageResource(product.image)
             binding.tvName.text = product.name
             binding.tvDescription.text = product.description
+        }
+
+        binding.ivActionShare.setOnClickListener {
+            val intent = Intent(Intent.ACTION_SEND)
+            intent.type = "text/plain"
+            intent.putExtra(Intent.EXTRA_TEXT, product!!.description)
+            startActivity(Intent.createChooser(intent, "Share with"))
         }
     }
 }
