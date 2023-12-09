@@ -9,12 +9,9 @@ import android.view.MenuItem
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.dicoding.submissionproject.databinding.ActivityMainBinding
-import java.lang.reflect.Array
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityMainBinding
     private lateinit var rvProducts: RecyclerView
     private val list = ArrayList<ProductData>()
 
@@ -62,6 +59,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun showSelectedProduct(productData: ProductData) {
+        val intent = Intent(this, DetailActivity::class.java)
+        intent.putExtra(DetailActivity.EXTRA_PRODUCT, productData)
+        startActivity(intent)
         Toast.makeText(this, "Anda memilih ${productData.name}", Toast.LENGTH_SHORT).show()
     }
 
