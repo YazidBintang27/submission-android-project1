@@ -22,10 +22,10 @@ class ListProductAdapter (private val listProduct: ArrayList<ProductData>) : Rec
     override fun getItemCount() = listProduct.size
 
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
-        val (name, description, logo) = listProduct[position]
+        val (name, logo, headline) = listProduct[position]
         holder.binding.ivLogo.setImageResource(logo)
         holder.binding.tvName.text = name
-        holder.binding.tvDescription.text = description
+        holder.binding.tvDescription.text = headline
         holder.itemView.setOnClickListener {
             onItemClickCallback.onItemClicked(listProduct[holder.adapterPosition])
         }
