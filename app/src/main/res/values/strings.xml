@@ -24,6 +24,20 @@
         <item>WebStorm</item>
     </string-array>
 
+
+    <string-array name="data_headline">
+        <item>A cross-platform IDE for C and C++</item>
+        <item>Many databases, one tool</item>
+        <item>Free .NET Decompiler and Assembly Browser</item>
+        <item>The Leading Java and Kotlin IDE</item>
+        <item>The Lightning-Smart PHP IDE</item>
+        <item>The Python IDE for Professional Developers</item>
+        <item>The Visual Studio Extension for .NET Developers</item>
+        <item>Fast &amp; powerful cross-platform .NET IDE</item>
+        <item>Code Smarter with Ruby on Rails IDE</item>
+        <item>The smartest JavaScript IDE</item>
+    </string-array>
+
     <string-array name="data_description">
         <item>CLion adalah Integrated Development Environment (IDE) yang dikembangkan oleh JetBrains khusus untuk pemrograman dalam bahasa C dan C++. IDE ini dirancang untuk memudahkan pengembangan perangkat lunak dengan menyediakan berbagai fitur seperti penyorotan sintaksis, analisis kode, debugging, dan integrasi dengan berbagai alat pengembangan.</item>
         <item>DataGrip juga merupakan salah satu produk yang dikembangkan oleh JetBrains, tetapi berfokus pada pengembangan database. Ini adalah Integrated Development Environment (IDE) yang dirancang khusus untuk bekerja dengan basis data. DataGrip mendukung berbagai sistem manajemen basis data seperti MySQL, PostgreSQL, Oracle, Microsoft SQL Server, dan banyak lagi.</item>

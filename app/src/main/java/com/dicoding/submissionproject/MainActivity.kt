@@ -37,11 +37,12 @@ class MainActivity : AppCompatActivity() {
     @SuppressLint("Recycle")
     private fun getListProducts(): ArrayList<ProductData> {
         val productName = resources.getStringArray(R.array.data_name)
+        val productHeadline = resources.getStringArray(R.array.data_headline)
         val productDescription = resources.getStringArray(R.array.data_description)
         val productLogo = resources.obtainTypedArray(R.array.data_logo)
         val listProduct = ArrayList<ProductData>()
         for(i in productName.indices){
-            val product = ProductData(productName[i], productDescription[i], productLogo.getResourceId(i, -1))
+            val product = ProductData(productName[i], productLogo.getResourceId(i, -1), productHeadline[i], productDescription[i])
             listProduct.add(product)
         }
         return listProduct
